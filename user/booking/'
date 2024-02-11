@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 60vw;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h6 {
+    color: #888;
+}
+
+.ui-datepicker {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ui-datepicker-header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ui-datepicker-calendar th {
+    background-color: #f2f2f2;
+}
+
+.ui-state-default {
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #ccc;
+}
+
+.ui-state-default:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.clockpicker-popover {
+    z-index: 99999;
+}
+
+.clockpicker-hours,
+.clockpicker-minutes {
+    padding: 10px;
+}
+
+.clockpicker-hours table,
+.clockpicker-minutes table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.clockpicker-hours table td,
+.clockpicker-minutes table td {
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.clockpicker-hours table td div,
+.clockpicker-minutes table td div {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.clockpicker-hours table td div:hover,
+.clockpicker-minutes table td div:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
